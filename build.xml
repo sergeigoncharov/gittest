@@ -14,6 +14,10 @@
     <property name="ftp.user" value="de_root"/>
     <property name="ftp.password" value="v0CM2bcP"/>
 
-  
+    <!-- Задаем параметры для файла ../server/Azk2Server.properties, для подключения к oracle -->
+
+    <property name="db.url">jdbc:oracle:thin:@192.168.1.8:1521:finx</property>
+    <property name="db.user">fin</property>
+    <property name="db.password">fin</property> 
 
 </project>
