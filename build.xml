@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+<project default="all">
+
+    <property name="DSK" value="d:"/>
+
+    <!-- Версия билда которой мы скачиваем и настраиваем -->
+
+    <property name="VERSION" value="2.312"/>
+
+    <!-- Настройки для подключения к ftp-->
+
+    <property name="ftp.address" value="ftp.bftcom.com"/>
+    <property name="ftp.user" value="de_root"/>
+    <property name="ftp.password" value="v0CM2bcP"/>
+
+  
+
+</project>
