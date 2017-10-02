@@ -20,4 +20,17 @@
     <property name="db.user">fin</property>
     <property name="db.password">fin</property> 
 
+	  <!-- Задаем параметр папки клиента, для обновления, в файле ../server/Azk2Server.properties -->
+
+    <property name="clnt.updt.path">../Client2/</property>
+
+    <!-- Задаем параметры для файла ../server/XML/xml.properties, для подключения к серверу приложений -->
+
+    <property name="xml.user">root1</property>
+    <property name="xml.password">toor1</property>
+
+    <!-- Задаем параметр определяющий типа БД: oracle/interbase -->
+
+    <property name="buildType" value="oracle"/>
+	
 </project>
