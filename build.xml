@@ -32,5 +32,6 @@
     <!-- Задаем параметр определяющий типа БД: oracle/interbase -->
 
     <property name="buildType" value="oracle"/>
+
 	
 </project>
